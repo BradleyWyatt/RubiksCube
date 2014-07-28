@@ -1,0 +1,29 @@
+﻿Build started 20/05/2014 22:29:52.
+     1>Project "D:\Documents\Visual Studio 2012\Projects\Part II Final\PartII\PartII.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\OpenCV\build\include\opencv /IC:\OpenCV\build\include\opencv2 /IC:\OpenCV\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\PartII.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt calibration.cpp
+         calibration.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2012\Projects\Part II Final\x64\Release\PartII.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenCV\build\x64\vc11\staticlib opencv_core247.lib opencv_imgproc247.lib opencv_highgui247.lib opencv_ml247.lib opencv_video247.lib opencv_features2d247.lib opencv_calib3d247.lib opencv_objdetect247.lib opencv_contrib247.lib opencv_legacy247.lib opencv_flann247.lib IlmImf.lib libjasper.lib libpng.lib libtiff.lib libjpeg.lib zlib.lib Vfw32.Lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Visual Studio 2012\Projects\Part II Final\x64\Release\PartII.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2012\Projects\Part II Final\x64\Release\PartII.lib" /MACHINE:X64 x64\Release\calibration.obj
+         x64\Release\circular.obj
+         x64\Release\colourgrouper.obj
+         x64\Release\cube.obj
+         x64\Release\cubedetector.obj
+         x64\Release\cubedrawer.obj
+         x64\Release\cubedrawernet.obj
+         x64\Release\cubedraweruser.obj
+         x64\Release\cubesolver.obj
+         x64\Release\evaluation.obj
+         x64\Release\position.obj
+         x64\Release\util.obj
+         x64\Release\stdafx.obj
+         Generating code
+     1>d:\documents\visual studio 2012\projects\part ii final\partii\cubedrawernet.cpp(120): warning C4715: 'CubeDrawerNet::getStartPoint' : not all control paths return a value
+     1>d:\documents\visual studio 2012\projects\part ii final\partii\cubedraweruser.cpp(85): warning C4715: 'CubeDrawerUser::getStartPoint' : not all control paths return a value
+         Finished generating code
+         PartII.vcxproj -> D:\Documents\Visual Studio 2012\Projects\Part II Final\x64\Release\PartII.exe
+     1>Done Building Project "D:\Documents\Visual Studio 2012\Projects\Part II Final\PartII\PartII.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.19
